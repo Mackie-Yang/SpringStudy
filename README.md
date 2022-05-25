@@ -46,7 +46,7 @@
 
 #### 1.3 组成
 
-![1653277277210](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653277277210.png)
+![1653277277210](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653277277210.png)
 
 Spring由七大模块组成：
 
@@ -64,7 +64,7 @@ Spring由七大模块组成：
 
 基于Spring的开发
 
-![1653280766465](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653280766465.png)
+![1653280766465](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653280766465.png)
 
 - Spring Boot
   - 一个快速开发的脚手架
@@ -103,7 +103,7 @@ Spring由七大模块组成：
 
 这种思想，从本质上解决了问题，我们程序员不用再去管理对象的创建了。系统的耦合性大大降低，可以更加的专注在业务的实现上。这是IOC的原型。
 
-![1653359818009](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653359818009.png)
+![1653359818009](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653359818009.png)
 
 #### IOC本质
 
@@ -129,7 +129,7 @@ IOC是一种编程思想，由主动的编程编程被动的接收
 
 可以通过newClassPathXmlApplicationContext去浏览一下底层代码
 
-![1653367281089](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653367281089.png)
+![1653367281089](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653367281089.png)
 
 ### 4、IOC创建的方式
 
@@ -445,7 +445,7 @@ Spring容器，类似于婚介网站
 
 官方解释：
 
-![1653409839050](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653409839050.png)
+![1653409839050](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653409839050.png)
 
 使用：
 
@@ -490,11 +490,11 @@ xmlns:c="http://www.springframework.org/schema/c"
 
 #### 6.4 bean的作用域
 
-![1653410178932](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653410178932.png)
+![1653410178932](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653410178932.png)
 
 1.单例模式 （Spring默认机制）
 
-![1653410278596](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653410278596.png)
+![1653410278596](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653410278596.png)
 
 ```xml
 <bean id="user2" class="com.yy.pojo.User" c:age="18" c:name="狂神" scope="singleton"/>
@@ -503,7 +503,7 @@ xmlns:c="http://www.springframework.org/schema/c"
 
 2.原型模式：每次从容器中get的时候，都会产生一个新对象
 
-![1653410554823](C:\Users\93599\AppData\Roaming\Typora\typora-user-images\1653410554823.png)
+![1653410554823](https://github.com/Mackie-Yang/SpringStudy/blob/master/img/1653410554823.png)
 
 ```xml
 <bean id="accountService" class="com.something.DefaultAccountService" scope="prototype"/>
